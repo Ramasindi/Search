@@ -6,14 +6,7 @@ import AutocompleteText from './AutocompleteText'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <AutocompleteText/>
-        <p>
-          
-          Edit <code>src/App.js</code> 
-        </p>
-      
-      </header>
+      <div style={{margin: '150px auto 0 auto', width:'600px'}}> <AutocompleteText/> </div>
     </div>
   );
 }
